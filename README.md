@@ -7,8 +7,6 @@
 ## Formulario de Votacion v1.0
 Formulario de votacion basico, cuenta con la validacion de RUT y de duplicidad para no permitir mas de un voto por RUT.
 
-En la ruta principal "/" tenemos un gráfico con el valor de la UF y las fechas de esta, el cual se puede filtrar mediante un rango de fechas.
-
 ** Este es la Versión 1.0 de este proyecto de ejemplo, el cual con el tiempo estaré actualizando, para incluir** 
 
 ## Tecnologías utilizadas
@@ -16,8 +14,6 @@ En la ruta principal "/" tenemos un gráfico con el valor de la UF y las fechas 
 - <img src="https://img.shields.io/badge/Booststrap-v5.2.3-blueviolet" alt="Booststrap v5.2.3">
 - <img src="https://img.shields.io/badge/-Ajax-inactive" alt="Ajax">
 - <img src="https://img.shields.io/badge/-BD%20SQL-lightgrey" alt="BD SQL">
-- <img src="https://img.shields.io/badge/DataTables%20-v1.13.4-blue" alt="DataTables v1.13.4">
-- <img src="https://img.shields.io/badge/Highcharts-v10.3.3-9cf" alt="Highcharts v10.3.3">
 
 ## Validaciones del formulario
 - Validacion de RUT real (Formato Chileno)
