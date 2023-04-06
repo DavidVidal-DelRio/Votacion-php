@@ -10,8 +10,8 @@ Formulario de votacion basico, cuenta con la validacion de RUT y de duplicidad p
 ** Este es la Versión 1.0 de este proyecto de ejemplo, el cual con el tiempo estaré actualizando, para incluir** 
 
 ## Tecnologías utilizadas
-- <img src="https://img.shields.io/badge/Laravel-v9.52.4-red" alt="Laravel v9.52.4">
-- <img src="https://img.shields.io/badge/Booststrap-v5.2.3-blueviolet" alt="Booststrap v5.2.3">
+- <img src="https://img.shields.io/badge/php-8.2.0-blue" alt="php 8.2.0">
+- <img src="https://img.shields.io/badge/css-blueviolet" alt="css">
 - <img src="https://img.shields.io/badge/-Ajax-inactive" alt="Ajax">
 - <img src="https://img.shields.io/badge/-BD%20SQL-lightgrey" alt="BD SQL">
 
