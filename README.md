@@ -22,7 +22,7 @@ y un apartado de administración de los datos por defecto, además de un informe
 - <img src="https://img.shields.io/badge/-Ajax-blueviolet" alt="Ajax">
 - <img src="https://img.shields.io/badge/-BD%20SQL-blueviolet" alt="BD SQL">
 
-## Instalacion
+## Instalación
 - Instalar XAMPP
 - Abra el panel de control XAMPP e inicie [apache] y [mysql]
 - Descargue el proyecto de github ( https://github.com/DavidVidal-DelRio/Votacion-php-ajax-simple.git )
