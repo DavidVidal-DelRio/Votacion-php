@@ -30,8 +30,3 @@ En la ruta principal "/" tenemos un gráfico con el valor de la UF y las fechas 
 
 ## Capturas
 ![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/Home.PNG)
-![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/Home2.PNG)
-![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/indicadors.PNG)
-![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/crear.PNG)
-![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/editar.PNG)
-![Imagen del proyecto](https://github.com/DavidVidal-DelRio/referencias-proyectos/blob/master/laravel-crud/eliminar.PNG)
