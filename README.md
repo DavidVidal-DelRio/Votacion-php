@@ -17,6 +17,7 @@ y un apartado de administración de los datos por defecto, además de un informe
 
 ## Tecnologías utilizadas
 - <img src="https://img.shields.io/badge/php-8.2.0-blue" alt="php 8.2.0">
+- <img src="https://img.shields.io/badge/JavaScript-blueviolet" alt="JavaScript">
 - <img src="https://img.shields.io/badge/Html-blueviolet" alt="Html">
 - <img src="https://img.shields.io/badge/css-blueviolet" alt="css">
 - <img src="https://img.shields.io/badge/-Ajax-blueviolet" alt="Ajax">
