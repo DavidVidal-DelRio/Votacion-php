@@ -1,0 +1,232 @@
+
+/* Aquí definimos las Custom properties */
+:root {
+  --negro: #393939;
+  --blanco: #ffffff ;
+  /* Tipografía */
+  --tipo-principal: Helvetica, Arial, sans-serif;
+  --tipo-secundaria: Verdana;
+}
+
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+/* Evitamos problemas con las imagenes */
+img, picture, video, iframe, figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+/* Reseteamos los enlaces para funcionar como cajas... */
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* ... excepto los que se encuentran en párrafos */
+p a {
+  display: inline;
+}
+
+/* Quitamos los puntos de los <li> */
+li {
+  list-style-type: none;
+}
+
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Desactivamos estilos por defecto de las principales etiquetas de texto */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Evitamos problemas con los pseudoelementos de quotes */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* Configuramos el texto que seleccionamos */
+::-moz-selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+::selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+/* Nivela problemas de tipografías y colocación de formularios */
+form, input, textarea, select, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+ 
+}
+
+
+/*tipografía para toda la web */
+body {
+  width: 100%;  
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-principal);
+  color: var(--negro);
+  color: #000;
+}
+
+/* Configuraciones varias para obtener el aspecto visual esperado 
+y tener un aspecto flexible con configuraciones básicas*/
+
+.container {
+   width: 100%;
+   padding-top: 6rem;
+   padding-left:  3rem;
+   padding-right: 3rem;
+   justify-content: center;
+}
+
+.cabecera{
+padding-bottom: 2rem;
+}
+.cabecera h1{
+    font-weight: bolder;
+}
+
+.formulario{
+   display: flex;
+   flex-wrap: nowrap;
+   border-top: ridge;
+   border-left: ridge;
+   padding-left: 0.2rem;
+}
+
+
+.elem-group{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input{
+  width:15.25rem;
+	padding:3px;
+	border:1px solid #5e5e5e;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+}
+
+select{
+  width:15.25rem;
+	padding:3px 10px;
+	border:1px solid #5e5e5e;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+button[type="submit"]{
+	width: fit-content;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#8f8f8f;
+} 
+
+button[type="submit"]:before{
+  background-color: #000;
+
+}
+
+
+.elem-groups{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.check{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.label-check{
+  flex-wrap: nowrap;
+    display: flex;
+    width: 15rem;
+}
+
+.check-opt{
+  display: flex;
+  padding-left: 3rem;
+}
+
+.check-inpt{
+  margin-right: 0.2rem;
+}
+
+.check-lab{
+  margin-right: 0.2rem;
+}
+
+input[type="checkbox"] {
+  opacity: 100;
+  width: 1em;
+  height: 1em;
+}
+
+input[type="checkbox"]:checked{
+  font-family: FontAwesome;
+  content: '\f00c';
+}
+
+.alerta{
+  display: flex;
+ }
+ 
+ .alerta-error{
+   background-color: orangered;
+     margin-top: 1rem;
+     font-weight: 600;
+     width: fit-content;
+     padding: 0.3rem;
+     border-radius: 1rem;
+ }
+ 
+ .alerta-ok{
+   background-color: rgb(136, 255, 0);
+     margin-top: 1rem;
+     font-weight: 600;
+     width: fit-content;
+     padding: 0.3rem;
+     border-radius: 1rem;
+ }
+
